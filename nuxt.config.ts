@@ -6,7 +6,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      title: "Prismic + Nuxt Minimal Starter",
+      title: repositoryName,
       htmlAttrs: {
         lang: "en",
       },
@@ -20,7 +20,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: ["@/fontsource-vatiable/nunito", "@/fontsource-vatiable/nunito-sans"],
+  css: ["@fontsource-variable/nunito", "@fontsource-variable/nunito-sans"],
 
   modules: ["@nuxtjs/prismic", "@nuxtjs/tailwindcss"],
 
